@@ -21,10 +21,6 @@ let
   appimageContents = pkgs.appimageTools.extract {
     inherit pname version ;
     src=appimageSrc;
-    # 可选：修复依赖（参考微信的patchelf操作）
-    postExtract = ''
-      patchelf --replace-needed libtiff.so.5 libtiff.so $out/opt/apifox/apifox || true
-    '';
   };
 
 in
