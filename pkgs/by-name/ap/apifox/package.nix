@@ -3,7 +3,7 @@
 
 let
   pname = "apifox";
-  version = "2.8.2";
+  version = "2.8.5";
   # 1. 下载包含AppImage的zip包
   zipSrc = pkgs.fetchzip {
     url = "https://file-assets.apifox.com/download/Apifox-linux-latest.zip";
