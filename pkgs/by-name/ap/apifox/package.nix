@@ -3,11 +3,11 @@
 
 let
   pname = "apifox";
-  version = "2.8.8";
+  version = "2.8.22";
   # 1. 下载包含AppImage的zip包
   zipSrc = pkgs.fetchzip {
     url = "https://file-assets.apifox.com/download/Apifox-linux-latest.zip";
-    sha256 = "sha256-ab62xISDuly1xp4QDYF0mkMXWZ4E0zwOe7czTOrdSDY="; # 替换为实际hash
+    sha256 = "sha256-wm0Ta7Y6jghduKTPW+1lL3DcFTL16NcS+WPDZCK90gM="; # 替换为实际hash
     stripRoot = false; # 保留zip内的原始目录
   };
 
