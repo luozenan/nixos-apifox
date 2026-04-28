@@ -7,7 +7,7 @@ let
   # 1. 下载包含AppImage的zip包
   zipSrc = pkgs.fetchzip {
     url = "https://file-assets.apifox.com/download/Apifox-linux-latest.zip";
-    sha256 = "sha256-wm0Ta7Y6jghduKTPW+1lL3DcFTL16NcS+WPDZCK90gM="; # 替换为实际hash
+    sha256 = "sha256-7AnC55MYRj0SF2eWblIB9ULH8bxvM2LqqIPi0/Mdk1g="; # 替换为实际hash
     stripRoot = false; # 保留zip内的原始目录
   };
 
